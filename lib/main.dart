@@ -2,13 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    home: HomeFull(),
-  ));
-}
-
 class HomeFull extends StatefulWidget {
   const HomeFull({Key? key}) : super(key: key);
 
