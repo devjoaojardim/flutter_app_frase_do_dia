@@ -12,12 +12,12 @@ class HomeFull extends StatefulWidget {
 class _HomeFullState extends State<HomeFull> {
 
   int _numeroAleatorio = 0;
-  final List _frases = ['O sucesso não é final, o fracasso não é fatal: é a coragem de continuar que conta.',
-    'Você não pode mudar o vento, mas pode ajustar as velas do barco para chegar onde quer.',
-    'Acredite em si mesmo e em tudo que você é. Saiba que há algo dentro de você que é maior do que qualquer obstáculo.',
-    'Não espere por oportunidades, crie-as.', 'Não importa quantas vezes você falhar, você deve se levantar e continuar tentando.'
-        'O sucesso é a soma de pequenos esforços repetidos dia após dia.', 'A maior glória em viver não está em nunca cair, mas em se levantar toda vez que caímos.'
-        'Não desista, pois a força necessária para conquistar grandes vitórias vem de dentro de você.'];
+  final List _frases = ['O Senhor é o meu rochedo, e o meu lugar forte, e o meu libertador; o meu Deus, a minha fortaleza, em quem confio; o meu escudo, a força da minha salvação, e o meu alto refúgio. \n- Salmo 18:2',
+    'Mas buscai primeiro o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas. \n- Mateus 6:33',
+    'Eu sou a videira, vós sois as varas; quem está em mim, e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer. \n- João 15:5',
+    'Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna. \n- João 3:16',
+        'Eu sou o caminho, e a verdade e a vida; ninguém vem ao Pai, senão por mim. \n- João 14:6',
+        'Mas, buscai primeiro o reino de Deus, e a sua justiça, e todas estas coisas vos serão acrescentadas. \n- Mateus 6:33'];
 
   var _fraseGerada = "Clique abaixo para gerar uma frase!";
 
