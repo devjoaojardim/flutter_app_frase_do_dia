@@ -29,11 +29,10 @@ class _HomeFullState extends State<HomeFull> {
   var _fraseGerada = "Clique abaixo para gerar uma frase!";
 
   void _incrementCounter() {
+    _numeroAleatorio = Random().nextInt(_frases.length);
+
     setState(() {
-      _numeroAleatorio = Random().nextInt(_frases.length);
-
       _fraseGerada = _frases[_numeroAleatorio];
-
     });
   }
 
